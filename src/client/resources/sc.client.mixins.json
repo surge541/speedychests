@@ -1,0 +1,17 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "me.surge.sc.mixin",
+    "compatibilityLevel": "JAVA_21",
+    "client": [
+        "BlockEntityRenderDispatcherMixin",
+        "ChestBlockMixin",
+        "ChestBlockModelMixin",
+        "accessor.WorldRendererAccessor"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    },
+    "mixins": [
+    ]
+}
